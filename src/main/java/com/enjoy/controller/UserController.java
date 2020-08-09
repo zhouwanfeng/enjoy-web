@@ -16,6 +16,10 @@ public class UserController {
     @RequestMapping(value = "/index", method = RequestMethod.GET)
     public String info(HttpServletRequest request, HttpServletResponse response) {//线程1
 
+
+
+
+
         logger.info(" UserController：index");
         return "index";
     }
