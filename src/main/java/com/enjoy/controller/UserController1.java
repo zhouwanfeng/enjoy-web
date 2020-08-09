@@ -18,9 +18,9 @@ public class UserController {
 
 
 
-		
 
-        logger.info(" UserController：index    wfw");
+
+        logger.info(" UserController：index");
         return "index";
     }
 
